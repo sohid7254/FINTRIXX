@@ -5,8 +5,8 @@ import { NavLink } from "react-router";
 
 const Navbar = () => {
     return (
-        <nav className="w-full">
-            <div className="max-w-300 mx-auto px-30 py-6 flex items-center justify-between">
+        <nav className="sticky top-0 z-50 bg-white">
+            <div className="max-w-360 mx-auto px-30 py-6 flex items-center justify-between">
                 <div className="flex items-center">
                     <div className="w-8 h-8 rounded-full flex items-center justify-center">
                         <img src={logo} alt="Logo" />
@@ -28,7 +28,7 @@ const Navbar = () => {
                     </NavLink>
 
                     {/* CTA Button */}
-                    <button class="bg-[#ffa600] text-white rounded-full px-5 py-1 shadow-[2px_2px_0px_0px_rgba(0,0,0,2)] transition-all duration-200">Book a Free Consultation</button>
+                    <button className="custom-btn">Book a Free Consultation</button>
                 </div>
             </div>
         </nav>
