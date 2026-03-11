@@ -1,1 +1,10 @@
 @import "tailwindcss";
+
+body { font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+.btn-orange {
+  @apply bg-orange-500 text-white px-6 py-3 rounded-lg hover:bg-orange-600 transition;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.5); /* pure black shadow */
+}
