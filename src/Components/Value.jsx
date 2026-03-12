@@ -1,6 +1,6 @@
 import React from "react";
 import amz from "../assets/amz.png";
-import logo from "../assets/logo.png";
+import logo from "../assets/Logo.png";
 import img1 from "../assets/ellipse1.png";
 import img2 from "../assets/ellipse2.png";
 import { Link } from "react-router";
