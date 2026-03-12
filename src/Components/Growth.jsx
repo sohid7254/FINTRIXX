@@ -1,5 +1,6 @@
 import React from 'react';
 import amz from "../assets/amz.png"
+import { Link } from 'react-router';
 
 const Growth = () => {
     return (
@@ -19,7 +20,7 @@ const Growth = () => {
                     Selling on Amazon is tough. Do these struggles sound familiar? Without the <br /> right strategy, you’re losing money, time, and opportunities.
                 </p>
             </div>
-            <div className="grid md:grid-cols-3 lg:grid-cols-2 sm:grid-cols-2 gap-7 px-4 mt-15">
+            <div className="grid md:grid-cols-3 lg:grid-cols-3 sm:grid-cols-2 gap-7 px-4 mt-15">
                 <div className=" border border-gray-300 rounded-lg  p-4  hover:shadow-md transition">
                     <h2 className="word">Lost in Competition?</h2>
                     <div className="w-0.5 bg-orange-300 h-9 word"></div>
@@ -51,6 +52,9 @@ const Growth = () => {
                     <h2>Managing it all alone is overwhelming</h2>
                 </div>
             </div>
+            <Link to="#" className='flex justify-center items center mt-6'>
+                <button className='custom-btn'>Take to an Expert</button>
+            </Link>
         </section>
     );
 };
