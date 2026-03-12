@@ -33,7 +33,7 @@ const Approach = () => {
                                 Founded in 1983, SecureWealth was created to address the challenges of traditional banking—long queues, complicated processes, and limited access. We started with a vision to make banking simple, accessible, and convenient for everyone. Today, we proudly serve 7+
                                 million users, helping them manage their finances with ease.
                             </h2>
-                            <Link to="/book-call">
+                            <Link to="#">
                                 <button className="btn-custom mt-4">Book a Free Strategy Call</button>
                             </Link>
                         </div>

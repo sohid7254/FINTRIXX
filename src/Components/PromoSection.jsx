@@ -20,7 +20,7 @@ const PromoSection = () => {
                         </p>
                     </div>
                     <div className="text-center">
-                        <h2 className="md:text-7xl text-lg">
+                        <h2 className="md:text-6xl text-lg font-bold">
                             Turn Your Amazon Struggles <br /> into Success-Save Time, <br />
                             <span className="word">Maximize Profits!</span>
                         </h2>
