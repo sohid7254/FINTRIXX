@@ -11,7 +11,7 @@ const Value = () => {
             <div className="max-w-300 md:px-4 px-4 mx-auto flex items-center">
                 <div className="flex flex-col md:flex-row items-center justify-between gap-16">
                     {/* Left Content */}
-                    <div className="space-y-2 ">
+                    <div className="space-y-3 mt-15">
                         <div className="flex items-center gap-1">
                             <img src={amz} alt="" />
                             <h2>
@@ -34,25 +34,25 @@ const Value = () => {
 
                     {/* Right Content */}
                     <div className="relative  h-117.5 flex justify-center items-center">
-                        <img src={logo} alt="FINTRIXX Logo" className="w-60 h-60" />
-                        <div className="absolute left-9 top-22 transform translate-x-40 translate-y-1//2 rotate-7">
-                            <img src={img1} alt="" className="w-37 " />
+                        <img src={logo} alt="FINTRIXX Logo" className="lg:left-1/56  relative lg:w-60 lg:h-60 w-40 h-40 -left-27"   />
+                        <div className="absolute lg:left-9 lg:top-22 transform lg:translate-x-40 lg:translate-y-1//2 lg:rotate-7 rotate-4">
+                            <img src={img1} alt="" className="lg:w-37 w-30 " />
                         </div>
-                        <div className="absolute -right-6 top-63 transform translate-x-20 -translate-y-1/2 rotate-10">
-                            <img src={img2} alt="" className="w-37 " />
+                        <div className="absolute lg:-right-6 lg:top-63 transform lg:translate-x-20 lg:-translate-y-1/2 lg:rotate-10 rotate-4">
+                            <img src={img2} alt="" className="lg:w-37 w-30 " />
                         </div>
 
-                        <div className="absolute -right-40 top-1/5 transform translate-y-1/ flex flex-col gap-4">
+                        <div className="absolute -right-5 lg:-right-40 top-1/5 lg:top-1/5 transform lg:translate-y-1/ flex lg:flex-col gap-4">
                             <p className="flex items-center gap-2 bg-[#242424] text-white px-3 py-4 rounded-md">🚀 Proven Expertise</p>
                         </div>
-                        <div className="absolute -right-50 top-45 transform translate-y-1/ flex flex-col gap-4">
-                            <p className="flex items-center gap-2 bg-[#242424] text-white px-3 py-4 rounded-md">🚀 Maximized Visibility</p>
+                        <div className="absolute -right-15 lg:-right-50 lg:top-45 top-41 transform lg:translate-y-1/ flex lg:flex-col gap-4">
+                            <p className="flex items-center gap-2 bg-[#242424] text-white lg:px-3 py-4 rounded-md">🚀 Maximized Visibility</p>
                         </div>
-                        <div className="absolute -right-47 top-65 transform translate-y-1/ flex flex-col gap-4">
-                            <p className="flex items-center gap-2 bg-[#242424] text-white px-5 py-4 rounded-md">🚀 Strategic Growth</p>
+                        <div className="absolute lg:-right-47 -right-18 top-1/2 lg:top-65 transform lg:translate-y-1/ flex lg:flex-col gap-4">
+                            <p className="flex items-center gap-2 bg-[#242424] text-white py-3 px-3 lg:px-5 lg:py-4 rounded-md">🚀 Strategic Growth</p>
                         </div>
-                        <div className="absolute -right-42 top-84 transform translate-y-1/ flex flex-col gap-4">
-                            <p className="flex items-center gap-2 bg-[#242424] text-white px-3 py-4 rounded-md">🚀 Exclusive Partnerships</p>
+                        <div className="absolute top-76 -right-18 lg:-right-42 lg:top-84 transform lg:translate-y-1/ flex lg:flex-col gap-4">
+                            <p className="flex items-center gap-2 bg-[#242424] text-white px-4 py-3 lg:px-3 lg:py-4 rounded-md">🚀 Exclusive Partnerships</p>
                         </div>
                     </div>
                 </div>
