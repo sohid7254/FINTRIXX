@@ -22,7 +22,7 @@ const Services = () => {
                 <p className="text-gray-600 md:text-lg text-sm">We handle everything Amazon so you focus on growing</p>
             </div>
             <div className="grid md:grid-cols-2 grid-cols-1 gap-8 mt-10">
-                <div className="flex justify-between p-6  border border-gray-200 rounded-lg">
+                <div className="flex justify-between p-6  border border-gray-200 rounded-lg  hover:shadow-md transition">
                     <div>
                         <h2 className="word">Amazon Growth & Advertising</h2>
                         <div className="w-0.5 bg-orange-300 h-9 word"></div>
@@ -37,7 +37,7 @@ const Services = () => {
                     </div>
                     <img src={rocket} alt="rocket" className="md:w-15 md:h-15 w-10 h-10" />
                 </div>
-                <div className="flex justify-between p-6  border border-gray-200 rounded-lg">
+                <div className="flex justify-between p-6  border border-gray-200 rounded-lg  hover:shadow-md transition">
                     <div>
                         <h2 className="word">Amazon Growth & Advertising</h2>
                         <div className="w-0.5 bg-orange-300 h-9 word"></div>
@@ -52,7 +52,7 @@ const Services = () => {
                     </div>
                     <img src={growth} alt="rocket" className="md:w-15 md:h-15 w-10 h-10" />
                 </div>
-                <div className="flex justify-between p-6  border border-gray-200 rounded-lg">
+                <div className="flex justify-between p-6  border border-gray-200 rounded-lg  hover:shadow-md transition">
                     <div>
                         <h2 className="word">Amazon Growth & Advertising</h2>
                         <div className="w-0.5 bg-orange-300 h-9 word"></div>
@@ -67,7 +67,7 @@ const Services = () => {
                     </div>
                     <img src={crt} alt="rocket" className="md:w-15 md:h-15 w-10 h-10" />
                 </div>
-                <div className="flex justify-between p-6  border border-gray-200 rounded-lg">
+                <div className="flex justify-between p-6  border border-gray-200 rounded-lg  hover:shadow-md transition">
                     <div>
                         <h2 className="word">Amazon Growth & Advertising</h2>
                         <div className="w-0.5 bg-orange-300 h-9 word"></div>

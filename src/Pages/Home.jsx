@@ -5,6 +5,7 @@ import OurStory from '../Components/OurStory';
 import Value from '../Components/Value';
 import Services from '../Components/Services';
 import Approach from '../Components/Approach';
+import Growth from '../Components/Growth';
 
 const Home = () => {
     return (
@@ -15,6 +16,7 @@ const Home = () => {
             <Value/>
             <Services/>
             <Approach/>
+            <Growth></Growth>
         </div>
     );
 };
