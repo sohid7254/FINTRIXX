@@ -17,6 +17,14 @@ body { font-family: "Oswald", sans-serif;
   cursor: pointer;
   box-shadow: 3px 3px 0px black;
 }
+.btn-custom {
+  background-color: #ffa600;
+  color: white;
+  padding: 8px 20px;
+  border-radius: 50px;
+  cursor: pointer;
+  box-shadow: 3px 3px 0px white;
+}
 
 .word{
   color: #ffa600;

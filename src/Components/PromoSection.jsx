@@ -25,7 +25,7 @@ const PromoSection = () => {
                             <span className="word">Maximize Profits!</span>
                         </h2>
                     </div>
-                    <div className="flex justify-center md:w-full w-30 md:text-lg text-[7px]">
+                    <div className="flex justify-center md:w-full w-30 md:text-sm text-[7px]">
                         <button className="custom-btn mt-4">Book a Free Consultation</button>
                     </div>
                 </div>
