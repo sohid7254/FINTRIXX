@@ -4,7 +4,7 @@ import { Link } from 'react-router';
 
 const OurStory = () => {
     return (
-        <div className="flex justify-center items-center flex-col space-y-2 mb-20">
+        <div className="flex justify-center items-center flex-col space-y-4 mb-20">
             <div className="flex justify-center items-center gap-1">
                 <img src={amz} alt="" className="w-10 h-auto" />
                 <p className="text-sm">

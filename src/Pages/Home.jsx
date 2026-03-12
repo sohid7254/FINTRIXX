@@ -4,6 +4,7 @@ import StatisTics from '../Components/StatisTics';
 import OurStory from '../Components/OurStory';
 import Value from '../Components/Value';
 import Services from '../Components/Services';
+import Approach from '../Components/Approach';
 
 const Home = () => {
     return (
@@ -13,6 +14,7 @@ const Home = () => {
             <OurStory/>
             <Value/>
             <Services/>
+            <Approach/>
         </div>
     );
 };
